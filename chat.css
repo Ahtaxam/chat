@@ -48,7 +48,8 @@
     width: 300px;
     height: auto;
     background-color: #25D366;
-    margin-top: 10px;padding: 10px;
+    margin-top: 10px;
+    padding: 10px;
     border-radius: 12px 0px 12px 12px;
     position: relative;
 }
@@ -59,4 +60,26 @@ span{
     bottom: 3px;
     color: grey;
     font-size: 12px;
+}
+
+
+
+
+.reply{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+   
+}
+
+.reply > div
+{
+    width: 300px;
+    height: auto;
+    background-color:#DCF8C6;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 0px 12px 12px 12px;
+   
 }
