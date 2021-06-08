@@ -88,3 +88,30 @@ span{
     border-radius: 0px 12px 12px 12px;
    
 }
+
+
+
+/* Footer Styling */
+
+.footer
+{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color: #161616;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #334443;
+    padding: 0px 20px;
+   
+}
