@@ -5,7 +5,7 @@
 }
 .scroll-div{
     width: 800px;
-    height: 400px;
+    height: 540px;
     background-color: #ECE5DD;
     margin: auto;
     overflow: hidden;
@@ -113,5 +113,7 @@ span{
     outline: none;
     background-color: #334443;
     padding: 0px 20px;
+    font-size: 17px;
+    color: white;
    
 }
