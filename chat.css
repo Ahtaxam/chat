@@ -3,9 +3,9 @@
     padding: 0%;
     font-family: sans-serif;
 }
-body{
+/* body{
     overflow: hidden;
-}
+} */
 .scroll-obj{
     width: 800px;
     margin: auto;
@@ -13,11 +13,20 @@ body{
     
 }
 
+.scroll-content
+{
+    height: 440px;
+    width: 800px;
+    overflow: auto;
+    overflow-x: hidden;
+    
+}
+
 .main-chat{
     width: 800px;
-    height: 440px;
-    overflow: hidden;
-    overflow-y: scroll;
+    height: 900px;
+    /* overflow: hidden;
+    overflow-y: scroll; */
     background-color: #ECE5DD;
 }
 
