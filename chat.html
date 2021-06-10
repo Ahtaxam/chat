@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="chat.css">
     <title>Document</title>
 </head>
-<body>
+
+<body onload="atEnd()">
     <!-- scroll bar main div -->
-<div class="scroll-obj">
+<div id="outer" class="scroll-obj">
     <div class="scroll-div">
-        <div class="scroll-content">
+       
             <!-- Header -->
             <div class="chat-header">
                 <h2>Asim</h2>
@@ -21,7 +22,8 @@
 
 
             <!-- Adding main chat  -->
-        <div class="main-chat">
+        <div class="scroll-content" id="c">
+        <div id="inner" class="main-chat">
             <div class="date">5/2/2021</div>
 
             <!-- Adding message html -->
@@ -252,14 +254,16 @@
 
             <!-- Adding Footer structure -->
 
-            <div class="footer">
-                <input type="text" id="inp" placeholder="Typa a message">
-                <button id="send-btn">Send</button>
-            </div>
+            
 
+        </div>
+        <div class="footer">
+            <input type="text" id="inp" placeholder="Typa a message">
+            <button id="send-btn">Send</button>
         </div>
 
     </div>
 </div>
+<script src="chat.js"></script>
 </body>
 </html>
