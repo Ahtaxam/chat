@@ -3,21 +3,32 @@
     padding: 0%;
     font-family: sans-serif;
 }
-.scroll-div{
+body{
+    overflow: hidden;
+}
+.scroll-obj{
     width: 800px;
-    height: 540px;
-    background-color: #ECE5DD;
     margin: auto;
+    background-color: #ECE5DD;
+    
+}
+
+.main-chat{
+    width: 800px;
+    height: 440px;
     overflow: hidden;
     overflow-y: scroll;
+    background-color: #ECE5DD;
 }
 
 
+
+
+
 .chat-header{
-    width: 100%;
+    width: 97%;
     height: 50px;
-    background-color: #161616;
-    border: 1px solid #161616;
+    background-color: #6b6748;
     color: white;
     padding: 10px 0px 10px 20px;
     position: sticky;
@@ -98,7 +109,7 @@ span{
     position: sticky;
     bottom: 0px;
     width: 100%;
-    background-color: #161616;
+    background-color: #d0cebf;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -107,13 +118,31 @@ span{
 
 #inp{
     width: 80%;
-    height: 30px;
+    height: 40px;
     border-radius: 15px;
     border: none;
     outline: none;
-    background-color: #334443;
+    background-color: #ece5dd;
     padding: 0px 20px;
     font-size: 17px;
-    color: white;
+    color: black;
    
+}
+
+#send-btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#ece5dd;
+    margin-left: 5px;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 0px;
+   
+
+}
+
+#send-btn:hover{
+    box-shadow: inset 80px 0px 0px #9e9d89;
 }
