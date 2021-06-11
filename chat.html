@@ -28,12 +28,12 @@
 
             <!-- Adding message html -->
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>Hi</p>
                     <span>1:02</span>
                 </div>
 
-                <div>
+                <div class="mymsg">
                     <p>Kya hall he ?</p>
                     <span>1:02</span>
                 </div>
@@ -56,7 +56,7 @@
             </div>
 
             <div class="msg">
-               <div>
+               <div class="mymsg">
                     <p>Haan me b Theik..</p>
                     <span>1:06</span>
                </div>
@@ -70,12 +70,12 @@
 
             <div class="date">2/4/2021</div>
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>Hlo muaaz aj iftaar k baad aaon  </p>
                     <span>6:12</span>
                 </div>
     
-                <div>
+                <div class="mymsg">
                     <p>agr farig ho tou  </p>
                     <span>6:12</span>
                 </div>
@@ -95,7 +95,7 @@
 
 
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>ok good bye   </p>
                     <span>1:02</span>
                 </div>
@@ -122,12 +122,12 @@
 
             <div class="date">3/6/2021</div>
                 <div class="msg">
-                    <div>
+                    <div class="mymsg">
                         <p>hey !!!   </p>
                         <span>8:02</span>
                     </div>
 
-                    <div>
+                    <div class="mymsg">
                         <p>how are you ??   </p>
                         <span>8:02</span>
                     </div>
@@ -166,7 +166,7 @@
 
 
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>ok good bye   </p>
                     <span>1:02</span>
                 </div>
@@ -188,7 +188,7 @@
 
 
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>ok good bye   </p>
                     <span>1:02</span>
                 </div>
@@ -209,7 +209,7 @@
             </div>
 
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>ok good bye   </p>
                     <span>1:02</span>
                 </div>
@@ -230,7 +230,7 @@
             </div>
 
             <div class="msg">
-                <div>
+                <div class="mymsg">
                     <p>ok good bye   </p>
                     <span>1:02</span>
                 </div>
@@ -260,14 +260,18 @@
         <div class="footer">
             <!-- send msg input -->
             <input type="text" id="inp" placeholder="Typa a message">
-            <button id="send-btn">Send</button> 
+            <button id="send-btn" onclick="snd()">Send</button> 
+
+
+            <input type="text" id="reply" placeholder="Reply" onkeyup="reset()">  
+            <button id="reply-btn" onclick="rply()">Reply</button> 
 
         </div>
 
-        <div class="reply-footer">
-            <input type="text" id="inp" placeholder="Reply">  
-            <button id="send-btn">Reply</button> 
-        </div>
+        <!-- <div class="reply-footer">
+            <input type="text" id="reply" placeholder="Reply">  
+            <button id="reply-btn">Reply</button> 
+        </div> -->
        
 
     </div>
