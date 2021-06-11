@@ -3,19 +3,20 @@
     padding: 0%;
     font-family: sans-serif;
 }
-/* body{
+body{
     overflow: hidden;
-} */
+}
 .scroll-obj{
     width: 800px;
     margin: auto;
     background-color: #ECE5DD;
+   
     
 }
 
 .scroll-content
 {
-    height: 440px;
+    height: 380px;
     width: 800px;
     overflow: auto;
     overflow-x: hidden;
@@ -42,7 +43,7 @@
     padding: 10px 0px 10px 20px;
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 1; 
 }
 
 
@@ -68,11 +69,12 @@
     flex-wrap: wrap;
     margin-right: 60px;
 }
-.msg > div{
+.msg .mymsg{
     width: 300px;
     height: auto;
     background-color: #25D366;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 12px 0px 12px 12px;
     position: relative;
@@ -119,10 +121,15 @@ span{
     bottom: 0px;
     width: 100%;
     background-color: #d0cebf;
-    height: 60px;
-    display: flex;
+    height: 80px;
+    padding: 20px 0px;
+    
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+}
+input{
+    margin: 5px 5px;
 }
 
 #inp{
@@ -158,13 +165,31 @@ span{
 
 
 
-.reply-footer{
-    position: sticky;
-    bottom: 0px;
-    width: 100%;
-    background-color: #d0cebf;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+#reply{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #ece5dd;
+    padding: 0px 20px;
+    font-size: 17px;
+    color: black;
+   
+}
+
+#reply-btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#ece5dd;
+    margin-left: 5px;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 0px;
+   
+
 }
